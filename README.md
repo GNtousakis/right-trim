@@ -16,8 +16,8 @@ npm i right-trim
 
 const rightTrim = require('right-trim');
 
-upperCase('   pizza   ') // ~> '  pizza'
-upperCase('hello world    ') // ~> 'hello world'
+rightTrim('   pizza   ') // ~> '  pizza'
+rightTrim('hello world    ') // ~> 'hello world'
 
 ```
 
