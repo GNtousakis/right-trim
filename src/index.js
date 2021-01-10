@@ -1,3 +1,3 @@
-const rightTrim = require('../build/Release/UpperCaseString.node');
+const rightTrim = require('../build/Release/RightTrim.node');
 
 module.exports = rightTrim.RightTrim;
